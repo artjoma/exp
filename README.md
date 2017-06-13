@@ -1,18 +1,18 @@
-#Ethereum JAVA call examples
+# Ethereum JAVA call examples
 
-##Overview
+## Overview
 - This examples use org.web3j package
 - For build contract "Customer" use generate.sh
 - Before use genetare.sh install "solc" - solidity compiler and add to PATH
 
-##org.web3j key features
+## org.web3j key features
  - This library use HTTP Rest API
  - Base steps to create java stub: solidity contract file -> solc compiler ->  
  org.web3j.codegen.SolidityFunctionWrapperGenerator java source generator
  - New address generation: Keys.createEcKeyPair()
  - For Solidity uint256/int256/int/uint types used java java.math.BigInteger class
  
-##Eth main features
+## Eth main features
 - Gas used to pay contract execution on peer EVM.
 - Gas price is price of one element of gas. For example 1 unit of gas = 20000wei or 1=1 (depends of network)
 - Contract I can call (only read), write only with transaction
